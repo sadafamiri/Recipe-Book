@@ -1,0 +1,46 @@
+<!DOCTYPE html!>
+<html lang="en">
+<head>
+<title>Add Recipe</title>
+</head>
+<body>
+<header>
+<nav>
+<a href="index.html">Home Html</a> |
+<a href="recipe-list.html">Recipe List</a> \
+<a href="recipe-details.html">Recipe details</a> 
+</nav>
+</header>
+
+<main>
+<h2>Add a New Recipe</h2>
+<!--forms-->
+<form>
+    <label for="ingredients">Recipe Name </label><br>
+    <input type="text" id="name" name="name" placeholder="Pizza,Mantu "required><br><br>
+
+<label  for="Name">What ingredients did you needed?</label><br>
+<textarea id="ingredients" name="ingredients" placeholder=" purpose flour:3 cups Water: about 1 cup..."required></textarea><br><br>
+
+<label for="ingredients">Step by Step, How did you Prepare it?</label><br>
+<textarea id="ingredients" name="ingredients" placeholder="flour mix dry ingredients, backe for 30 minutes..."required></textarea><br><br>
+
+<label for="image">Link to an image that shows your dish</label><br>
+<input type="url" id="image" name="pizza.jpg" placeholder="provide a link to an image of your dish"><br><br>
+
+<label for="category">Recipe category</label>
+<select id="category" name="category" required>
+<option value="food">food</option>
+<option value="Carnivore">Carnivore</option>
+<option value="Sharp set">Sharp set</option>
+</select></br><br>
+<button type="submit">Add to Recipe</button>
+</form>
+</main>
+
+
+<footer style="text-align: center; padding: 15px; border-top: 1px solid;color: #999; margin-top: 60px;">
+    &copy;2025 Digital kitchen. Crafted with care Sadaf Amiri.
+  </footer>
+</body>
+</html>
